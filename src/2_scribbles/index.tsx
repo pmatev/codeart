@@ -61,7 +61,7 @@ export default function App() {
     p5.noStroke();
 
     buffer.push({
-      color: p5.color(Math.random(t) * 255, Math.random(t) * 255, Math.random(t) * 255),
+      color: p5.color(Math.random() * 255, Math.random() * 255, Math.random() * 255),
       x1: width * p5.noise(t + 1),
       x2: width * p5.noise(t + 2),
       x3: width * p5.noise(t + 3),

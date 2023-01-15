@@ -1,3 +1,3 @@
-import App from './1_noise_field';
+import App from './15_sine_waves';
 
 export default App;
